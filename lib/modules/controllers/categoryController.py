@@ -3,11 +3,11 @@ from ..database.immediate import Immediate
 
 class CategoryController:
   TABLENAME = 'category'
-  IDCATEGORY = 'idCategory'
+  IDCATEGORY = 'id_category'
   DESCRIPTION = 'description'
   COLOR = 'color'
   STATS = 'stats'
-  IDUSER = 'idUser'
+  IDUSER = 'id_user'
   
   def insertCategory(category: category):
     sql = f"""insert into {CategoryController.TABLENAME}({CategoryController.DESCRIPTION},{CategoryController.COLOR},{CategoryController.STATS},{CategoryController.IDUSER})

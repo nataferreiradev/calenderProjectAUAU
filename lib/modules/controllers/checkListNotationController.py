@@ -5,4 +5,4 @@ class CheckListNotationController:
   STATS = 'status'
   EVENT = 'event'
   IDNOTATION = 'id_notation'
-  ORDER = 'ordernation'
+  ORDER = 'order'

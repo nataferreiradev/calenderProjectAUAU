@@ -3,7 +3,7 @@ from ..database.immediate import Immediate
 
 class UserController:
   TABLENAME = 'user'
-  ID_USER = "iduser"
+  ID_USER = "id_user"
   EMAIL = "email"
   USER = "user"
   PASSWORD = "password" 
